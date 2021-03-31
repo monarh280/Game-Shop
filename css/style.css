@@ -133,9 +133,7 @@ nav ul li a{font-size: 16px; font-weight:bold;}
     color: rgb(136, 22, 22);
     border-radius: 10px;
     font-size: 30px;
-    transition: 2s linear;
-    left: 500px;
-    position: absolute;
+    transition: 2s linear;  
     opacity: 1;
     box-shadow: 10px 10px 8px black;
     border: 2px dashed rgba(20, 2, 2, 0.74);
@@ -177,7 +175,7 @@ nav ul li a{font-size: 16px; font-weight:bold;}
 }
 .kartka{
     width: 270px;
-    height: 400px;
+    height: 500px;
     border: 1px outset black;
     border-radius: 10px;
     padding: 15px;
@@ -231,10 +229,10 @@ color: rgb(38, 0, 255);
     box-shadow: 0px 0px 15px rgb(64, 97, 10);
 }
 .kartka-top{
-    height: 50%;
+    height: 40%;
     overflow:hidden;box-shadow: 0px 0px 10px black; 
     border-radius: 10px;}
-.kartka-bot{height: 50%;}
+.kartka-bot{height: 60%;}
 
 /*-----------------------------тінь-----------------------*/
 .tini{
@@ -631,4 +629,63 @@ margin: 20px 0;
 }
 .catalog-slider img{
     width: 100%;
+}
+
+
+#cart{
+    padding: 0 15px;
+}
+#cart li{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#cart li img{
+    margin: 10px 20px;
+    max-width: 200px;
+   
+}
+.delete-items{
+    margin-left: 10px;
+    padding: 4px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.cart-btn{
+    position: absolute;
+    top: 5px;
+    right: 76px;
+    background: none;
+    width: 64px;
+    height: 64px;
+}
+.cart-btn i{
+    background:none;
+    color: rgb(105, 114, 238)    ;
+    
+  
+}
+.cart-btn:hover{
+    position: absolute;
+    top: 5px;
+    right: 76px;
+    background: none;
+    width: 64px;
+    height: 64px;
+}
+.cart-btn i:hover{
+    background:none;
+    color: rgb(255, 174, 0)    ;
+    
+  
+}
+.main-btton{
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
 }
